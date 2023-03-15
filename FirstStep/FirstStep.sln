@@ -13,6 +13,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AOPDemo", "AOPDemo", "{23E4
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DispatchProxyDemo", "DispatchProxyDemo\DispatchProxyDemo.csproj", "{D964677D-66C5-4711-91DB-272F9065ED9D}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IAsyncEnumerableDemo", "Asyncemo\IAsyncEnumerableDemo.csproj", "{6B6EC764-C820-4DB4-9CDE-2B93100DC908}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AsyncDemo", "AsyncDemo", "{B2B3FB3D-068C-4F04-A9C1-02AB532BB733}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +35,10 @@ Global
 		{D964677D-66C5-4711-91DB-272F9065ED9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D964677D-66C5-4711-91DB-272F9065ED9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D964677D-66C5-4711-91DB-272F9065ED9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B6EC764-C820-4DB4-9CDE-2B93100DC908}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B6EC764-C820-4DB4-9CDE-2B93100DC908}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B6EC764-C820-4DB4-9CDE-2B93100DC908}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B6EC764-C820-4DB4-9CDE-2B93100DC908}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -38,6 +46,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{9CD261F4-6A52-4F44-BD0A-773A195D2BDA} = {382477C4-E541-4F73-A0D1-EB9CD10F739F}
 		{D964677D-66C5-4711-91DB-272F9065ED9D} = {23E4858F-7776-4948-B0D1-DD590D900FD7}
+		{6B6EC764-C820-4DB4-9CDE-2B93100DC908} = {B2B3FB3D-068C-4F04-A9C1-02AB532BB733}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {354EA5C1-1DA5-4B09-8DB3-FD0198CA1D55}
