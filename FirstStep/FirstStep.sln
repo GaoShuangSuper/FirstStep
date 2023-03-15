@@ -9,6 +9,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IOCDemo", "IOCDemo", "{3824
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CastelWindsorDemo", "CastelWindsorDemo\CastelWindsorDemo.csproj", "{9CD261F4-6A52-4F44-BD0A-773A195D2BDA}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AOPDemo", "AOPDemo", "{23E4858F-7776-4948-B0D1-DD590D900FD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DispatchProxyDemo", "DispatchProxyDemo\DispatchProxyDemo.csproj", "{D964677D-66C5-4711-91DB-272F9065ED9D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,12 +27,17 @@ Global
 		{9CD261F4-6A52-4F44-BD0A-773A195D2BDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9CD261F4-6A52-4F44-BD0A-773A195D2BDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9CD261F4-6A52-4F44-BD0A-773A195D2BDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D964677D-66C5-4711-91DB-272F9065ED9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D964677D-66C5-4711-91DB-272F9065ED9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D964677D-66C5-4711-91DB-272F9065ED9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D964677D-66C5-4711-91DB-272F9065ED9D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{9CD261F4-6A52-4F44-BD0A-773A195D2BDA} = {382477C4-E541-4F73-A0D1-EB9CD10F739F}
+		{D964677D-66C5-4711-91DB-272F9065ED9D} = {23E4858F-7776-4948-B0D1-DD590D900FD7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {354EA5C1-1DA5-4B09-8DB3-FD0198CA1D55}
